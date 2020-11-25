@@ -1,8 +1,8 @@
 <#PSScriptInfo
 
-.VERSION 1.1
+.VERSION 1.0
 
-.GUID cabe1358-d9ac-43fc-9b8e-4917152718a1
+.GUID 
 
 .AUTHOR simeononsecurity.ch
 
@@ -14,28 +14,30 @@
 
 .PROJECTURI https://github.com/simeononsecurity/VirusTotal-PS
 
-.DESCRIPTION "Upload to AnonFiles.com easily Ex. 'Upload-Anon -File 'C:\temp\test.txt'"
+.DESCRIPTION "Upload Files to VirusTotal for Virus Scanning. Ex. Set-VirusScan -api {string} -file 'C:\temp\test.txt'"
 
 .RELEASENOTES
 Init
 
 #>
 
-function Get-VirusScan {
+function Set-VirusScan {
 #Requires -Version 6.0
 param(
 [string]$file,
 [string]$api
 )
 If (!$api){
-    Write-Host "Please provide your api key Ex. Get-VirusScan -api {string} -file 'C:\temp\test.txt'"
+    Write-Host "Please provide your api key Ex. Set-VirusScan -api {string} -file 'C:\temp\test.txt'"
 }Else {
     If (!$File){
-    Write-Host "Please provide a file. Ex: Get-VirusScan -api {string} -file 'C:\temp\test.txt'"
+    Write-Host "Please provide a file. Ex: Set-VirusScan -api {string} -file 'C:\temp\test.txt'"
     }Else {
         #Upload the file to VirusTotal and grab the Resource ID
         Write-Host "Please wait wile the file is uploaded"
         ((Invoke-WebRequest -Method "POST" -Uri "https://www.virustotal.com/vtapi/v2/file/scan" -Form @{apikey=$api;file=(Get-Item $File)}).content | ConvertFrom-Json).resource | Set-Variable -Name VSResource
+        Write-Host "File Uploaded"
+        Write-Host "Retrieving VirusTotal Report"
         #Use Resource ID to pull the scan results
         Write-Host "Please wait wile VirusTotal scans your file"
         $randomsleeptime= Get-Random -Minimum 5 -Maximum 30
