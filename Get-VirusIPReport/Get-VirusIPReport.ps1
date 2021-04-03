@@ -44,7 +44,7 @@ If (!$api){
         Write-Host "ASN: $asn"
         Write-Host "ASN Owner: $asownder"
         Write-Host "Country of Origin: $country"
-        Write-Host "Responce Code: $responsecode"
+        Write-Host "Response Code: $responsecode"
 
     }
 }
