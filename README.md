@@ -1,4 +1,7 @@
 # VirusTotal-PS
+
+[![VirusTotal Scan](https://github.com/simeononsecurity/VirusTotal-PS/actions/workflows/virustotal.yml/badge.svg)](https://github.com/simeononsecurity/VirusTotal-PS/actions/workflows/virustotal.yml)
+
 A collection of PowerShell Modules for Interacting with the VirusTotal API
 
 **Notes:**
