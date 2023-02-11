@@ -2,13 +2,13 @@
 
 .VERSION 1.0
 
-.GUID 
+.GUID bb30c66f-5fcd-4d1c-b2db-76fdd59baf82
 
 .AUTHOR simeononsecurity.ch
 
 .COMPANYNAME SimeonOnSecurity
 
-.COPYRIGHT 2020 SimeonOnSecurity. All rights reserved.
+.COPYRIGHT 2020 - 2023 SimeonOnSecurity. All rights reserved.
 
 .TAGS VirusTotal File Scan AntiVirus PowerShell Module
 
