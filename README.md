@@ -13,7 +13,7 @@ A collection of PowerShell Modules for Interacting with the VirusTotal API
 - Download the modules from the [GitHub Repository](https://github.com/simeononsecurity/VirusTotal-PS)
 - Install all the modules
 ```ps
-Get-ChildItem -Recurse *.ps1 | Import-Module
+Get-ChildItem -Recurse *.psm1 | Import-Module
 ```
 ### PowerShell Gallery:
 ```powershell
