@@ -4,7 +4,7 @@
     RootModule = 'Get-VirusIPReport.psm1'
     
     # Version number of this module.
-    ModuleVersion = '1.0.0'
+    ModuleVersion = '1.0.1'
     
     # ID used to uniquely identify this module
     GUID = '9559640a-0120-4cc8-ba19-e62ba6205227'

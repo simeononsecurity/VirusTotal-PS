@@ -4,7 +4,7 @@
     RootModule = 'Get-VirusDomainReport.psm1'
     
     # Version number of this module.
-    ModuleVersion = '1.0.0'
+    ModuleVersion = '1.0.1'
     
     # ID used to uniquely identify this module
     GUID = 'bb30c66f-5fcd-4d1c-b2db-76fdd59baf82'
