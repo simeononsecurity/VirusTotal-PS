@@ -1,6 +1,6 @@
 @{
     RootModule = 'Get-VirusReport.psm1'
-    ModuleVersion = '1.0.1'
+    ModuleVersion = '1.0.2'
     GUID = '37655ec8-f93b-4551-b2ae-727f9d9d003d'
     Author = 'simeononsecurity.ch'
     CompanyName = 'SimeonOnSecurity'
