@@ -26,4 +26,5 @@ Install-Module -Name Get-VirusDomainReport
 #
 #### Links:
 [github.com/simeononsecurity](https://github.com/simeononsecurity)
+
 [simeononsecurity.ch](https://simeononsecurity.ch)
