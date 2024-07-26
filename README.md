@@ -1,6 +1,6 @@
 # VirusTotal-PS
 
-[![VirusTotal Scan](https://github.com/simeononsecurity/VirusTotal-PS/actions/workflows/virustotal.yml/badge.svg)](https://github.com/simeononsecurity/VirusTotal-PS/actions/workflows/virustotal.yml)
+ [![Sponsor](https://img.shields.io/badge/Sponsor-Click%20Here-ff69b4)](https://github.com/sponsors/simeononsecurity) [![VirusTotal Scan](https://github.com/simeononsecurity/VirusTotal-PS/actions/workflows/virustotal.yml/badge.svg)](https://github.com/simeononsecurity/VirusTotal-PS/actions/workflows/virustotal.yml)
 
 A collection of PowerShell Modules for Interacting with the VirusTotal API
 
